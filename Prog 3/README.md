@@ -25,3 +25,5 @@ AlmostQS1: Exact same driver as QuickSort1 except the call to InsertionSort is c
 AlmostQS2: Exact same driver as QuickSort2 except the call to InsertionSort is commented out
 AlmostQS3: Exact same driver as QuickSort3 except the call to InsertionSort is commented out
 ```
+Also, write two heapsort methods. HeapSortTD builds the heap top down (the slow way)
+and HeapSortBU builds the heap bottom up (the fast way).
