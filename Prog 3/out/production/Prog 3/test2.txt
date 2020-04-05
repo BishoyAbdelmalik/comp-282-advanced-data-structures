@@ -1,0 +1,158 @@
+Testing Bishoy Abdelamlik's program.
+QS: outside-in partition, random pivot, cutoff=50: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+QS: left-to-right, 1 random pivot partition, cutoff=50: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+QS: left-to-right, 2 random pivot partition, cutoff=50: 
+    26.
+*** Increasing sorting error: QS: left-to-right, 2 random pivot partition, cutoff=50, position #1
+*** No more QS: left-to-right, 2 random pivot partition, cutoff=50s will be tested.  Correct values and Bishoy Abdelamlik's values follow.
+0 2 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+0 24 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 2 25 
+
+QS: outside-in partition, lf pivot, cutoff=50: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+QS: left-to-right, lf pivot, cutoff=50: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+QS: outside-in partition, random pivot, cutoff=2: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+QS: left-to-right, 1 random pivot partition, cutoff=2: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+QS: left-to-right, 2 random pivot partition, cutoff=2: 
+    26.
+*** Increasing sorting error: QS: left-to-right, 2 random pivot partition, cutoff=2, position #1
+*** No more QS: left-to-right, 2 random pivot partition, cutoff=2s will be tested.  Correct values and Bishoy Abdelamlik's values follow.
+0 2 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+0 24 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 2 25 
+
+QS: outside-in partition, lf pivot, cutoff=2: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+QS: left-to-right, lf pivot, cutoff=2: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+Almost QS: outside-in partition, random pivot, cutoff=2: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+Almost QS: left-to-right, 1 random pivot partition, cutoff=2: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+Almost QS: left-to-right, 2 random pivot partition, cutoff=2: 
+    26.
+*** Increasing sorting error: Almost QS: left-to-right, 2 random pivot partition, cutoff=2, position #1
+*** No more Almost QS: left-to-right, 2 random pivot partition, cutoff=2s will be tested.  Correct values and Bishoy Abdelamlik's values follow.
+0 2 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+0 24 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 2 25 
+
+HeapSort: top-down build heap: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+HeapSort: bottom-up build heap: 
+    26.25.24.23.22.21.20.19.18.17.16.15.14.13.12.11.10.9.8.7.6.5.4.3.2.1.0.
+Bigger, QS: outside-in partition, random pivot, cutoff=50:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, QS: left-to-right, 1 random pivot partition, cutoff=50:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, QS: left-to-right, 2 random pivot partition, cutoff=50:
+     done.
+Bigger, QS: outside-in partition, lf pivot, cutoff=50:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, QS: left-to-right, lf pivot, cutoff=50:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, QS: outside-in partition, random pivot, cutoff=2:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, QS: left-to-right, 1 random pivot partition, cutoff=2:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, QS: left-to-right, 2 random pivot partition, cutoff=2:
+     done.
+Bigger, QS: outside-in partition, lf pivot, cutoff=2:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, QS: left-to-right, lf pivot, cutoff=2:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, Almost QS: outside-in partition, random pivot, cutoff=2:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, Almost QS: left-to-right, 1 random pivot partition, cutoff=2:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, Almost QS: left-to-right, 2 random pivot partition, cutoff=2:
+     done.
+Bigger, HeapSort: top-down build heap:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+Bigger, HeapSort: bottom-up build heap:
+    100.631.1162.1693.2224.2755.3286.3817.4348.4879.5410.5941.6472.7003.7534.8065.8596.
+    9127.9658.10189.10720.11251.11782.12313.12844.13375.13906.14437.14968.15499.16030.
+    16561.17092.17623.18154.18685.19216.19747. done.
+
+Testing Bishoy Abdelamlik's sorts on a huge array.
+
+Java's QuickSort on random data runs in 3.855 seconds.
+Java's QuickSort on the test sets runs in 1.029 seconds.
+
+
+Bishoy Abdelamlik's QS: outside-in partition, random pivot, cutoff=50
+    on all random values runs in 3.655 seconds.      Java Ratio = 0.94
+    on the test sets runs in 1.443 seconds.          Java Ratio = 1.40
+
+Bishoy Abdelamlik's QS: left-to-right, 1 random pivot partition, cutoff=50
+    on all random values runs in 4.502 seconds.      Java Ratio = 1.16
+    on the test sets runs in 2.502 seconds.          Java Ratio = 2.43
+Bishoy Abdelamlik's QS: left-to-right, 2 random pivot partition, cutoff=50 not tested.
+
+
+Bishoy Abdelamlik's QS: outside-in partition, lf pivot, cutoff=50
+    on all random values runs in 3.737 seconds.      Java Ratio = 0.96
+
+Bishoy Abdelamlik's QS: left-to-right, lf pivot, cutoff=50
+    on all random values runs in 4.595 seconds.      Java Ratio = 1.19
+
+Bishoy Abdelamlik's QS: outside-in partition, random pivot, cutoff=2
+    on all random values runs in 4.696 seconds.      Java Ratio = 1.21
+    on the test sets runs in 2.313 seconds.          Java Ratio = 2.24
+
+Bishoy Abdelamlik's QS: left-to-right, 1 random pivot partition, cutoff=2
+    on all random values runs in 5.289 seconds.      Java Ratio = 1.37
+    on the test sets runs in 3.313 seconds.          Java Ratio = 3.21
+Bishoy Abdelamlik's QS: left-to-right, 2 random pivot partition, cutoff=2 not tested.
+
+
+Bishoy Abdelamlik's QS: outside-in partition, lf pivot, cutoff=2
+    on all random values runs in 4.397 seconds.      Java Ratio = 1.14
+
+Bishoy Abdelamlik's QS: left-to-right, lf pivot, cutoff=2
+    on all random values runs in 4.913 seconds.      Java Ratio = 1.27
+
+Bishoy Abdelamlik's Almost QS: outside-in partition, random pivot, cutoff=2
+    on all random values runs in 4.812 seconds.      Java Ratio = 1.24
+    on the test sets runs in 2.502 seconds.          Java Ratio = 2.43
+
+Bishoy Abdelamlik's Almost QS: left-to-right, 1 random pivot partition, cutoff=2
+    on all random values runs in 5.346 seconds.      Java Ratio = 1.38
+    on the test sets runs in 3.347 seconds.          Java Ratio = 3.25
+Bishoy Abdelamlik's Almost QS: left-to-right, 2 random pivot partition, cutoff=2 not tested.
+
+
+Bishoy Abdelamlik's HeapSort: top-down build heap
+    on all random values runs in 12.720 seconds.      Java Ratio = 3.29
+    on the test sets runs in 6.391 seconds.          Java Ratio = 6.21
+
+Bishoy Abdelamlik's HeapSort: bottom-up build heap
+    on all random values runs in 10.848 seconds.      Java Ratio = 2.81
+    on the test sets runs in 4.662 seconds.          Java Ratio = 4.53
+
+Done testing Bishoy Abdelamlik methods.

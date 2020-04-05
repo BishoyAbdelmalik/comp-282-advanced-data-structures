@@ -1,0 +1,72 @@
+public static void QuickSort1 ( int a[], int n, int cutoff){
+        /*Random r2=new Random();
+        int seed=r2.nextInt();
+        System.out.println("seed"+seed);*/
+/*
+        Random r=new Random(-932116252);
+*/
+        Random r=new Random();
+
+        QuickSort1(a,0,n-1,cutoff,r);
+        //insertionSort(a,n);
+    }
+
+    private static void QuickSort1(int[] a, int leftPointer, int rightPointer, int cutoff, Random r) {
+        while (rightPointer-leftPointer>cutoff) {
+            int pivot=r.nextInt(rightPointer-leftPointer)+leftPointer;
+            /*System.out.println("Pivot chosen ");
+            System.out.println("Pivot is " +pivot+ "(value: "+a[pivot]+")");
+            System.out.println("Ready to partition ");
+            System.out.println("left "+leftPointer);
+            System.out.println("right "+rightPointer);
+            System.out.println(Arrays.toString(a));*/
+            pair mid=outsideIn(a,leftPointer,rightPointer,pivot);
+           /* System.out.println("partition done ");
+            System.out.println(Arrays.toString(a));
+            System.out.println("left"+ mid.getLeft()+" right "+mid.getRight());*/
+            if((mid.getLeft()-leftPointer)<(rightPointer-mid.right)) {
+                QuickSort1(a, leftPointer, mid.getLeft(), cutoff,r);
+                leftPointer=mid.getRight();
+            }else {
+                QuickSort1(a,mid.getRight(),rightPointer,cutoff,r);
+                rightPointer=mid.getLeft();
+            }
+
+        }
+
+    }
+
+    private static pair outsideIn(int[] a, int leftPointer, int rightPointer, int pivot) {
+        int pivotValue=a[pivot];
+        while (leftPointer<=rightPointer){
+            while (leftPointer<rightPointer&&a[leftPointer]<pivotValue){
+                leftPointer++;
+            }
+            while (leftPointer<rightPointer&&a[rightPointer]>pivotValue){
+                rightPointer--;
+            }
+
+
+            if (rightPointer!=leftPointer) {
+/*
+                System.out.println("swap " + a[leftPointer] + " & " + a[rightPointer]);
+*/
+                swap(a, leftPointer, rightPointer);
+/*
+                System.out.println(Arrays.toString(a));
+*/
+                leftPointer++;
+                rightPointer--;
+            }else {
+                if (a[leftPointer] <= pivotValue) {
+                    leftPointer++;
+                }
+                if (a[rightPointer] > pivotValue) {
+                    rightPointer--;
+                }
+            }
+
+
+        }
+        return new pair(rightPointer,leftPointer);
+    }
